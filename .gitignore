@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+myvenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Frontend - Node
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/*.local
+
+# Process IDs
+.backend.pid
+.frontend.pid
+
+# Server Logs
+backend.log
+frontend.log
