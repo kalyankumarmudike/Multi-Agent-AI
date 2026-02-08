@@ -47,3 +47,8 @@ frontend/*.local
 # Server Logs
 backend.log
 frontend.log
+
+
+DEPLOYMENT.md
+GITHUB_SETUP.md
+README.md
