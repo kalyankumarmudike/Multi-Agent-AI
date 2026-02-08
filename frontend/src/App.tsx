@@ -18,7 +18,7 @@ const queryClient = new QueryClient({
 
 function AppContent() {
   const [analysisData, setAnalysisData] = useState<DocumentAnalysisResponse | null>(null);
-  const { data: healthData, isLoading: healthLoading, isError: healthError } = useHealthCheck();
+  const { isLoading: healthLoading, isError: healthError } = useHealthCheck();
 
   const handleReset = () => {
     setAnalysisData(null);
